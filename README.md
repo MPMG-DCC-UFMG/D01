@@ -3,11 +3,11 @@ Este projeto tem como objetivo consolidar todo o processo de casamento de entida
 
 A figura abaixo exemplifica o cenário de interesse para o MPMG, onde é realizada a união dos atributos das entidades do tipo Pessoa "José da Silva" que consta da fonte de dados A e "José Silva" presente na fonte de dados B, uma vez que o módulo de integração de dados identificou ambas entidades como sendo a mesma pessoa. Este é um exemplo onde a solução proposta tem o objetivo de identificar os registro que representam a uma mesma pessoa.
 
-![alt text](https://github.com/MPMG-DCC-UFMG/M05/fig/figura1.png)
+![alt text](https://github.com/MPMG-DCC-UFMG/M05/blob/master/fig/figura1.png)
 
 A implementação de uma solução para CE envolve comumente duas fases: blocagem e correspondência. A blocagem tem por objetivo filtrar o produto do cruzamento dos conjuntos A x B para um conjunto C candidato que somente inclui pares de registros de entidades considerados prováveis para serem consideradas como correspondentes. Os mecanismos de blocagem partem do pressuposto de que não podem ocorrer casos de falso negativo. O conjunto de candidatos C frequentemente ainda pode conter pares de registros de entidades não correspondentes, portanto, após a blocagem, a fase de correspondência visa identificar as verdadeiras instâncias de entidades correlacionadas. A figura abaixo apresenta o processo de blocagem e correspondência aplicada a fontes de dados.
 
-![alt text](https://github.com/MPMG-DCC-UFMG/M05/fig/figura2.png)
+![alt text](https://github.com/MPMG-DCC-UFMG/M05/blob/master/fig/figura2.png)
 
 
 # Abordagem com arquivo csv
