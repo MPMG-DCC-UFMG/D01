@@ -1,2 +1,2 @@
 INFO:rlr.crossvalidation:using cross validation to find optimum alpha...
-INFO:rlr.crossvalidation:optimum alpha: 0.010000, score 0.011627906976744186
+INFO:rlr.crossvalidation:optimum alpha: 1.000000, score 0.18576671147521906
